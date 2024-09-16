@@ -46,40 +46,40 @@
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
-var day= 5;
-switch( day ){
-  case 1:
-    console.log("شنبه");
-  break;
+// var day= 5;
+// switch( day ){
+//   case 1:
+//     console.log("شنبه");
+//   break;
 
-  case 2:
-    console.log("شنبه1");
-  break;
+//   case 2:
+//     console.log("شنبه1");
+//   break;
 
-  case 3:
-    console.log("شنبه2");
-  break;
+//   case 3:
+//     console.log("شنبه2");
+//   break;
 
-  case 4:
-    console.log("شنبه3");
-  break;
+//   case 4:
+//     console.log("شنبه3");
+//   break;
 
-  case 5:
-    console.log("شنبه4");
-  break;
+//   case 5:
+//     console.log("شنبه4");
+//   break;
 
-  case 6:
-    console.log("شنبه5");
-  break;
+//   case 6:
+//     console.log("شنبه5");
+//   break;
 
-  case 7:
-    console.log("جمعه");
-  break;
+//   case 7:
+//     console.log("جمعه");
+//   break;
 
-  default:
-    console.log("؟؟؟؟؟؟؟نامعتبر");
-  }
- console.log('_____________________________________');
+//   default:
+//     console.log("؟؟؟؟؟؟؟نامعتبر");
+//   }
+//  console.log('_____________________________________');
   
 
 
@@ -105,35 +105,67 @@ switch( day ){
   // console.log(name++);
 
  // -----------------------------------------------------
- var gender ='female';
- var age =14;
+//  var gender ='7441';
+//  var age =18;
 
-if(gender=="female"){
+// if(gender=="female"){
 
-   if(age >= 18){
-    console.log('دختر مثبت 18');
-    console.log("سن شما برابر است با :"+ age);
-    console.log("جنسیت شما : female");
-   }
+//    if(age >= 18){
+//     console.log('دختر مثبت 18');
+//     console.log("سن شما برابر است با :"+ age);
+//     console.log("جنسیت شما : female");
+//    }
 
-   else if (age < 18){
-    console.log("دختر منفی 18");
-    console.log("سن شما برابر است با :"+ age);
-    console.log("جنسیت شما : female");
-   }
+//    else{
+//     console.log("دختر منفی 18");
+//     console.log("سن شما برابر است با :"+ age);
+//     console.log("جنسیت شما : female");
+//    }
 
-}
-if(gender=="male"){
+// }
+// else if(gender=="male"){
 
-  if (age >= 18) {
-     console.log('پسر مثبت 18');
-    console.log("سن شما برابر است با :"+ age);
-    console.log("جنسیت شما :male");
-  }
+//   if (age >= 18) {
+//      console.log('پسر مثبت 18');
+//     console.log("سن شما برابر است با :"+ age);
+//     console.log("جنسیت شما :male");
+//   }
 
-   else if (age< 18){
-    console.log('پسر منفی 18');
-    console.log("سن شما برابر است با :"+ age);
-    console.log("جنسیت شما :male");
-  }
-}
+//    else{
+//     console.log('پسر منفی 18');
+//     console.log("سن شما برابر است با :"+ age);
+//     console.log("جنسیت شما :male");
+//   }
+// }
+
+// else{
+//   console.log("دوباره تلاش کنید یکی از ورودی های نام یا سن اشتباه هست");
+// }
+
+  // ------------------------------------------------------------------------------------------
+
+  // let i = 1 ;
+  // while(i <= 2){
+  //   console.log("m");
+  //   i++;
+  // }
+
+
+    // ------------------------------------------------------------------------------------------
+
+    // var num =10;
+    // while(num <= 100){
+
+    //   if (num % 10 == 0) {
+    //     console.log(num);
+    //   }
+    //   num++;
+    // }
+
+
+    var one=0 , i=1 ;
+    while(i<=1){
+      one +=i;
+      i++;
+    }
+    console.log(one);
